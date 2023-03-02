@@ -1,5 +1,14 @@
 // useMemo hook
 
+/*
+
+-   useMemo is a hook very similar to useCallback, but instead caching a function, useMemo will cache the return value of a function.
+-   You can use useMemo in a very similar way to the memo HOC.
+-   useMemo is a hook with an array of dependences, and memo is a HOC that accepts as parameter an optional function that uses props to conditionally update the component.
+-   useMemo caches a value returned between renders, while memo caches a whole react component between renders.
+
+*/
+
 // A React Hook that lets you cache the result of a calculation between re-renders.
 // Returns a memoized value.
 
